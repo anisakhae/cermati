@@ -6,14 +6,120 @@ body{
     font-size: 20px;
 }
 
+.overlay-header {
+    box-shadow: inset 2000px 0 0 0 rgba(0, 74, 117, 0.65);
+    color: #004a75;
+  }
+
 .header {
     background-image: url("./assets/backgroud.jpg");
     background-size: cover;
     background-position: center;
-    height: 60vh;
+    height: 100vh;
 }
 
-h2 {
+.text-align-center p{
+    justify-content: center;
+
+}
+
+.header-text h2 {
     text-align: center;
     color: white;
+    font-size: 30px;
+    position: absolute;
+    width: 100%;
+    top: 35%;
+}
+
+.header-text h3{
+    text-align: center;
+    color: white;
+    font-size: 25px;
+    position: absolute;
+    width: 100%;
+    top: 40%;
+}
+
+.header-text p{
+    text-align: center;
+    color: white;
+    font-size: 20px;
+    position: absolute;
+    width: 100%;
+    top: 45%;
+}
+
+.btn-outline-light {
+    padding: 1.6vh 2vh;
+    color: white;
+    background-color: transparent;
+    border: 1px solid white;
+    border-radius: 3px;
+    transition: 0.4s;
+    position: absolute;
+    text-transform: uppercase;
+    margin-top: 1%;
+    margin-bottom: 1%;
+    text-align: center;
+    top: 50%;
+  }
+
+  .btn-outline-light:hover {
+    color: #004a75;
+    background-color: white;
+  }
+
+.highlight {
+    display: inline;
+    background-color: ​#e5e5e5;
+}
+
+.btm-highlight {
+    margin: auto;
+}
+
+.card {
+    display: flex;
+    justify-content: center;
+    list-style: none;
+    flex-wrap: wrap;
+}
+
+.card-body {
+    display: flex;
+    width: 25%;
+    padding: 10px;
+}
+
+.card-tittle {
+    justify-content: space-between;
+    align-items: center;
+    display: flex;
+    flex-direction: row;
+}
+
+.card-tittle h2{
+    color: black;
+}
+
+.card-border p{
+    font-size: 15px;
+}
+
+.card-border {
+    border-radius: 0.1rem;
+    border: 1.3px solid darkgray;
+    -webkit-box-shadow: 0.21px 0.21px 0.21px darkgray;
+    -moz-box-shadow: 0.21px 0.21px 0.21px darkgray;
+    padding-left: 10px;
+}
+
+.con-footer{
+    background-color: #004a75;
+    text-align: center;
+    color: white;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    font-size: small;
 }
